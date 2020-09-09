@@ -4,7 +4,7 @@ const port = 8000;
 
 //ruta inicial
 app.get('/', (req,res)=>{
-    res.send('Hola bebitos')
+    res.send('Hola')
 })
 
 app.listen(port, ()=>{
