@@ -4,9 +4,7 @@ const Playa = require('./../models/Playa');
 
 
 router.get("/", async(req,res)=>{
-    const playas = await Playa.find({});
-    res.json(playas)
-
+    res.json({"Estado":"API Funcionando Correctamente"})
 })
 
 module.exports = router;

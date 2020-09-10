@@ -13,13 +13,14 @@ const playaSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    temperatura: {
-        type: Number,
+    aforo: {
+        type: String,
         required: true
     },
-    nubosidad: {
-        type: Number,
-        required: true
+    bioseguridad: {
+        type: Boolean,
+        required: true,
+        default: true
     }
 })
 

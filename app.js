@@ -13,8 +13,9 @@ app.use(express.json())
 //Usar Morgan como logger de errores
 app.use(morgan('tiny'));
 
-//Sirviendo mis rutas
+//Sirviendo rutas
 app.use("/", require("./routes/principal"));
+app.use("/playas", require("./routes/playas"));
 
 
 //Conexión a servidor
