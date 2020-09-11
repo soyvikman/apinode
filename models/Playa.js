@@ -1,17 +1,19 @@
 const mongoose = require('mongoose');
+const shortid = require('shortid');
 
 const playaSchema = new mongoose.Schema({
     nombre: {
         type: String,
         required: true
     },
-    latitud: {
-        type: Number,
+    condiciones: {
+        type: String,
         required: true
     },
-    longitud: {
-        type: Number,
-        required: true
+    transporte: {
+        type: Boolean,
+        required: true,
+        default: false
     },
     aforo: {
         type: String,
@@ -21,6 +23,10 @@ const playaSchema = new mongoose.Schema({
         type: Boolean,
         required: true,
         default: true
+    },
+    shortid: {
+        type: String,
+        default: shortid.generate
     }
 })
 
