@@ -17,7 +17,6 @@ app.use(morgan('tiny'));
 app.use("/", require("./routes/principal"));
 app.use("/playas", require("./routes/playas"));
 
-
 //Conexión a servidor
 app.listen(port, ()=>{
     console.log(`API funcionando en http://localhost:${port}`)

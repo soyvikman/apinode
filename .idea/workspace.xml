@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6981147f-0395-49b4-a1d8-36ec1059af06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/playas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/playas.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/playas.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -53,7 +58,11 @@
       <workItem from="1599686952676" duration="2574000" />
       <workItem from="1599698909525" duration="4519000" />
       <workItem from="1599715090934" duration="1488000" />
-      <workItem from="1599786993253" duration="2799000" />
+      <workItem from="1599786993253" duration="7151000" />
+      <workItem from="1600136677773" duration="1991000" />
+      <workItem from="1600219050319" duration="991000" />
+      <workItem from="1600220070393" duration="1338000" />
+      <workItem from="1600474738509" duration="4656000" />
     </task>
     <servers />
   </component>
@@ -73,6 +82,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1138" y="272" key="FileChooserDialogImpl" timestamp="1600479426279">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1138" y="272" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1600479426279" />
+    <state x="781" y="147" key="SettingsEditor" timestamp="1600479472501">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="781" y="147" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1600479472501" />
+    <state x="1053" y="376" width="621" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1600479472000">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1053" y="376" width="621" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1600479472000" />
     <state x="1445" y="233" key="run.anything.popup" timestamp="1599685520963">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
