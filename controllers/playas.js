@@ -38,7 +38,7 @@ exports.crearPuntuacion = async(req,res,next)=>{
         console.log(`Se agregó una nueva playa: ${nuevaPlaya}`);
         res.status(201).json(nuevaPlaya);
     } catch (error) {
-        res.status(400).json(error.message.red);
+        res.status(400).json(error.message);
     }
 }
 
@@ -46,14 +46,13 @@ exports.crearPuntuacion = async(req,res,next)=>{
 // Ruta PUT /playas/:shortid
 exports.editarPuntuacion = async (req,res,next)=>{
     try{
-        const shortid = req.params.shortid;
-        const calificacionEditada = await Playa.findOneAndUpdate(shortid, req.body, {
+        const calificacionEditada = await Playa.findOneAndUpdate(req.params.shortid, req.body, {
             new: true,
             runValidators: true
         })
         res.status(200).json(calificacionEditada)
     } catch (error){
-        res.status(400).json(error.message.red)
+        res.status(400).json(error.message)
     }
 }
 

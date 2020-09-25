@@ -4,7 +4,8 @@ const shortid = require('shortid');
 const playaSchema = new mongoose.Schema({
     nombre: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     condiciones: {
         type: String,
@@ -27,6 +28,14 @@ const playaSchema = new mongoose.Schema({
     shortid: {
         type: String,
         default: shortid.generate
+    },
+    calificaciones: {
+        type: Array,
+        default: []
+    },
+    comentarios: {
+        type: Array,
+        default: [{idUsuario:1, comentario: "Esta playa aún no ha recibido comentarios"}]
     }
 })
 
